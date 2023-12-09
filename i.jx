@@ -1,0 +1,33 @@
+<div class="bg">
+        <img class="h-96 w-full bg-center bg-cover absolute mix-blend-overlay" src="/images/pretty-young-stylish-sexy-woman-pink-luxury-dress-summer-fashion-trend-chic-style-sunglasses.jpg"/>
+      <div class="p-6 ">
+        <h1 class="ml-200">welcome</h1>
+        <h1>code</h1>
+        <p>Lorem ipsum  itaque corporis neque quas!</p>
+      </div>
+   
+     </div>
+     //////////
+     <div class="bg flex justify-between p-6  mt-2 shadow-lg shadow-gray-white">
+    <!--heder_section --->
+    <h1 class="text-2xl sm:text-5xl md:text-2xl text-white">Collection<span class="text-white"></span>
+        <span class="text-white">cosmatics</span>
+      </h1>
+
+        <i id="iconButton"  class="fa-solid fa-bars text-4xl text-white  hidden sm:hidden  absolute right-2"></i>
+        <i id="closeicon" class="fa-solid fa-x text-4xl  block sm:hidden   absolute right-2  text-white"></i>
+
+        <div class="flex ">
+            <ul id="ul_link"  class=" sm:text-2xl md:mr-40 sm:space-y-0 space-y-8 md:gap-20 md:text-2xl md:gap-3 flex  gap-5  sm:flex-row flex-col sm:text-2xl  text-white">
+                <li class="hover:underline hover:text-[#7D3C98] cursor:pointer"> <a href="/pages/Home.html">Home</a></li>
+
+                <li class="hover:underline hover:text-[#7D3C98] cursor:pointer"> <a href="/pages/Cosmetics.html">Cosmetics</a></li>
+              <li class="hover:underline hover:text-[#7D3C98] cursor:pointer"> <a href="/pages/Collection.html">Collection</a></li>
+              <li class="hover:underline hover:text-[#7D3C98] cursor:pointer"> <a href="/pages/Shop.html">Shop</a></li>
+                <li class="hover:underline hover:text-[#7D3C98] cursor:pointer"> <a href="/pages/Contact.html">Contact Us</a></li>
+
+                  <!-- <button class="bg-purple-500 text-1xl text-white px-2 rounded-lg">Sign up</button> -->
+            </ul>
+           
+        </div>
+    </div>

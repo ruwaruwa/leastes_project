@@ -1,0 +1,68 @@
+nav{
+    background: #8e0909;
+    height: 80px;
+    width: 100%;
+}
+label.log{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul a{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+nav ul  a {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a.active, a:hover{
+    background: #a5bed1;
+    transition: 0.5s;
+}
+.chebtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media(max-width:952px){
+    label.log{
+        font-size: 20;
+        padding-left: 40px;
+    }
+    nav ul a{
+        font-size: 10;
+
+    }
+
+}
+@media(max-width:768){
+    .chebtn{
+        display: block;
+
+    }
+    ul{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background: #098e8a;
+    }
+}
